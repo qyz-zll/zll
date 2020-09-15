@@ -10,6 +10,9 @@ def index():
 def login():
     return "登录"
 
+@app.route("/aoo")
+def aoo():
+    return "111"
 
 
 if __name__ == '__main__':
